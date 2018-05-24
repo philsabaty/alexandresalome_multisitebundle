@@ -52,9 +52,9 @@ class MultisiteLoader extends \Twig_Loader_Filesystem
     /**
      * {@inheritdoc}
      */
-    protected function findTemplate($name)
+    protected function findTemplate($name, $throw = true)
     {
-        return $this->loader->findTemplate($name);
+        return $this->loader->findTemplate($name, $throw);
     }
 
 
