@@ -1,5 +1,5 @@
 {
-    "name": "alexandresalome/multisite-bundle",
+    "name": "philsabaty/alexandresalome_multisitebundle",
     "description": "A bundle to manage multiple sites with different brandings and locales",
     "license": "MIT",
     "autoload": {
